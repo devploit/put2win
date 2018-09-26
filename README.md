@@ -1,5 +1,5 @@
 # Put2win
-<script src="https://asciinema.org/a/0GFJCJzRQZBlWYAxco2ONqODZ.js" id="asciicast-0GFJCJzRQZBlWYAxco2ONqODZ" async></script>
+[![asciicast](https://asciinema.org/a/0GFJCJzRQZBlWYAxco2ONqODZ.png)](https://asciinema.org/a/0GFJCJzRQZBlWYAxco2ONqODZ)
 
 # Dependencies
 It's necessary to have installed nmap and msfvenom tools for a correct operation
