@@ -1,4 +1,6 @@
 # Put2win
+Script to automatize shell upload by PUT HTTP method to get meterpreter
+
 [![asciicast](https://asciinema.org/a/0GFJCJzRQZBlWYAxco2ONqODZ.png)](https://asciinema.org/a/0GFJCJzRQZBlWYAxco2ONqODZ)
 
 # Dependencies
@@ -17,4 +19,5 @@ Examples:
 
 # Contact
 Telegram: @devploit
+
 Twitter: https://www.twitter.com/devploit
