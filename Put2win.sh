@@ -1,9 +1,9 @@
 #!/bin/bash        
 #title           :Put2win.sh
 #description     :This script automatize shell upload by PUT HTTP method to get meterpreter.
-#author		 	 :@devploit (https://github.com/sysdevploit/)
+#author		 :@devploit (https://github.com/sysdevploit/)
 #version         :0.1    
-#usage		 	 :./Put2win.sh -t TARGET [-p PORT] -u URL_PATH -l LHOST
+#usage		 :./Put2win.sh -t TARGET [-p PORT] -u URL_PATH -l LHOST
 #notes           :Install Nmap and Metasploit to use this script correctly.
 #====================================================================================================
 
@@ -27,9 +27,9 @@ do
     case $arg in
         t) rhost=$OPTARG ;;
         p) rport=$OPTARG ;;
-		u) path=$OPTARG ;;
-		l) lhost=$OPTARG ;;
-		h) display_usage ;;
+	u) path=$OPTARG ;;
+	l) lhost=$OPTARG ;;
+	h) display_usage ;;
 	esac
 done
 
