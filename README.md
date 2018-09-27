@@ -6,6 +6,9 @@ Script to automatize shell upload by PUT HTTP method to get meterpreter
 # Dependencies
 It's necessary to have installed nmap and msfvenom tools for a correct operation
 
+# Installation
+git clone https://github.com/sysdevploit/put2win
+
 # Usage
 ./Put2win.sh -h                                    
 This script automatize shell upload by PUT HTTP method to get meterpreter.
