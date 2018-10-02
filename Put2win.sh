@@ -1,19 +1,19 @@
 #!/bin/bash        
-#title           :Put2win.sh
-#description     :This script automatize shell upload by PUT HTTP method to get meterpreter.
-#author 	 :@devploit (https://github.com/sysdevploit/)
-#version	 :0.1    
-#usage		 :./Put2win.sh -t TARGET [-p PORT] -u URL_PATH -l LHOST
-#notes           :Install Nmap and Metasploit to use this script correctly.
+#title		:Put2win.sh
+#description	:This script automatize shell upload by PUT HTTP method to get meterpreter.
+#author		:@devploit (https://github.com/sysdevploit/)
+#version	:0.1    
+#usage		:./Put2win.sh -t TARGET [-p PORT] -u URL_PATH -l LHOST
+#notes		:Install Nmap and Metasploit to use this script correctly.
 #====================================================================================================
 
-# Initial arguments
+# --- initial arguments ---
 rhost=0
 rport=80
 path=/
 lhost=0
 
-# Usage
+# --- usage ---
 display_usage() { 
 	echo "This script automatize shell upload by PUT HTTP method to get meterpreter." 
 	echo -e "\nUsage:\n ./Put2win.sh -t TARGET [-p PORT] -u URL_PATH -l LHOST" 
@@ -21,7 +21,7 @@ display_usage() {
 	echo -e " - ./Put2win.sh -t 192.168.1.80 -p 443 -u /uploads -l 192.168.1.10"
 	} 
 
-# Arguments
+# --- arguments ---
 while getopts 't:p:u:l:h' arg;
 do
     case $arg in
@@ -33,13 +33,13 @@ do
 	esac
 done
 
-# Colors
+# --- colors ---
 RED="\033[1;31m"
 GREEN="\033[1;32m"
 BLUE="\033[1;34m"
 NOCOLOR="\033[0m"
 
-# Requirements installed
+# --- requirements installed ---
 for p in nmap msfvenom; do
 	if hash "$p" &>/dev/null
 	then
@@ -50,13 +50,13 @@ for p in nmap msfvenom; do
     fi
 done 
 
-# If arguments are less than three: display usage and exit
+# --- if arguments are less than three: display usage and exit ---
 if [ $# -le 3 ] 
 then 
 	exit 1
 fi 
 
-# Banner
+# --- banner ---
 echo -e "${RED} _____       _   ___           _       "
 echo "|  __ \     | | |__ \         (_) 	 "    
 echo "| |__) |   _| |_   ) |_      ___ _ __  "
@@ -65,7 +65,7 @@ echo "| |   | |_| | |_ / /_ \ V  V /| | | | |"
 echo "|_|    \__,_|\__|____| \_/\_/ |_|_| |_|"
 echo -e "				@devploit${NOCOLOR}"
                                                                          
-# Main
+# --- main ---
 if [ -e license.php ]
 then
 	rm -r license.php
