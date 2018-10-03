@@ -1,7 +1,7 @@
 # Put2win
 Script to automatize shell upload by PUT HTTP method to get meterpreter
 
-[![asciicast](https://asciinema.org/a/0GFJCJzRQZBlWYAxco2ONqODZ.png)](https://asciinema.org/a/0GFJCJzRQZBlWYAxco2ONqODZ)
+[![asciicast](https://asciinema.org/a/204195.png)](https://asciinema.org/a/204195)
 
 # Dependencies
 It's necessary to have installed nmap and msfvenom tools for a correct operation
