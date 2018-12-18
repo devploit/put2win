@@ -7,7 +7,11 @@ Script to automatize shell upload by PUT HTTP method to get meterpreter
 It's necessary to have installed nmap and msfvenom tools for a correct operation
 
 # Installation
+```
 git clone https://github.com/sysdevploit/put2win
+cd put2win
+chmod +x put2win.sh
+```
 
 # Usage
 ```
