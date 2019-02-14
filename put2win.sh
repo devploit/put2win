@@ -49,17 +49,6 @@ do
 	esac
 done
 
-# --- requirements installed ---
-for p in nmap msfvenom; do
-	if hash "$p" &>/dev/null
-	then
-		break
-	else
-		echo "$p is not installed"
-    	exit 1
-    fi
-done 
-
 # --- if arguments are less than three: display usage and exit ---
 if [ $# -le 3 ] 
 then 
