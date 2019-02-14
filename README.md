@@ -5,8 +5,6 @@ Script to automatize shell upload by PUT HTTP method to shell.
 
 [![asciicast](https://asciinema.org/a/204195.png)](https://asciinema.org/a/204195)
 
-# Dependencies
-It's necessary to have installed nmap and msfvenom tools for a correct operation
 
 # Installation
 ```
