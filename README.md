@@ -1,7 +1,7 @@
 # put2win
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
-Script to automatize shell upload by PUT HTTP method to shell.
+Script to automatize shell upload by PUT HTTP method to get shell.
 
 [![asciicast](https://asciinema.org/a/204195.png)](https://asciinema.org/a/204195)
 
