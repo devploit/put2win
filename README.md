@@ -1,7 +1,7 @@
 # put2win
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
-Script to automatize shell upload by PUT HTTP method to get shell.
+Script to automate PUT HTTP method exploitation to get shell.
 
 [![asciicast](https://asciinema.org/a/204195.png)](https://asciinema.org/a/204195)
 
@@ -15,7 +15,7 @@ chmod +x put2win.sh
 
 # Usage
 ```
-This script automatize shell upload by PUT HTTP method to get shell.
+Script to automate PUT HTTP method exploitation to get shell.
 
 Options:
   -t TARGET        Target URL/IP (e.g. 192.168.1.10)
