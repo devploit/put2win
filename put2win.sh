@@ -45,13 +45,13 @@ do
 	u) path=$OPTARG ;;
 	l) lhost=$OPTARG ;;
 	s) shellname=$OPTARG ;;
-	h) display_usage ;;
 	esac
 done
 
-# --- if arguments are less than three: display usage and exit ---
-if [ $# -le 2 ] 
-then 
+# --- if arguments are less than four: display usage and exit ---
+if [ $# -lt 4 ] 
+then
+	display_usage
 	exit 1
 fi 
 
