@@ -3,7 +3,7 @@
 
 Script to automate PUT HTTP method exploitation to get shell.
 
-[![asciicast](https://asciinema.org/a/204195.png)](https://asciinema.org/a/204195)
+[![asciicast](https://asciinema.org/a/vw0wGOc6BmYIFoWKiY0YkanLb.svg)](https://asciinema.org/a/vw0wGOc6BmYIFoWKiY0YkanLb)
 
 
 # Installation
