@@ -6,14 +6,14 @@ Script to automate PUT HTTP method exploitation to get shell.
 [![asciicast](https://asciinema.org/a/vw0wGOc6BmYIFoWKiY0YkanLb.svg)](https://asciinema.org/a/vw0wGOc6BmYIFoWKiY0YkanLb)
 
 
-# Installation
+### Installation
 ```
 git clone https://github.com/sysdevploit/put2win
 cd put2win
 chmod +x put2win.sh
 ```
 
-# Usage
+### Usage
 ```
 Script to automate PUT HTTP method exploitation to get shell.
 
@@ -29,7 +29,7 @@ Examples of use:
  - bash put2win.sh -t 192.168.1.80 -p 443 -u /uploads -l 192.168.1.10
  ```
  
-# Contact
+### Contact
 Telegram: @devploit
 
 Twitter: https://www.twitter.com/devploit
