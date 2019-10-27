@@ -7,14 +7,14 @@ Script to automate PUT HTTP method exploitation to get shell.
 
 
 ### Installation
-```
+```bash
 git clone https://github.com/sysdevploit/put2win
 cd put2win
 chmod +x put2win.sh
 ```
 
 ### Usage
-```
+```bash
 Script to automate PUT HTTP method exploitation to get shell.
 
 Options:
