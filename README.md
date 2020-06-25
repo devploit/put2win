@@ -32,4 +32,4 @@ Examples of use:
 ### Contact
 Telegram: @devploit
 
-Twitter: https://www.twitter.com/devploit
+Twitter: [@devploit](https://www.twitter.com/devploit)
